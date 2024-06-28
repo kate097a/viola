@@ -77,6 +77,50 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     })
 
+    document.getElementById("title8").addEventListener("mouseover", (e) => {
+        document.getElementById("title8").animate({
+            width: '15vw'
+        }, {
+            duration: 100,
+            fill: "forwards"
+        })
+    })
+    
+    document.getElementById("title8").addEventListener("mouseleave", (e) => {
+        document.getElementById("title8").animate({
+            width: '10vw'
+        }, {
+            duration: 500,
+            fill: "forwards"
+        })
+    })
+
+
+    
+
+
+    document.getElementById("title10").addEventListener("mouseover", (e) => {
+        document.getElementById("title10").animate({
+            width: '15vw'
+        }, {
+            duration: 100,
+            fill: "forwards"
+        })
+    })
+    
+    document.getElementById("title10").addEventListener("mouseleave", (e) => {
+        document.getElementById("title10").animate({
+            width: '20vw'
+        }, {
+            duration: 500,
+            fill: "forwards"
+        })
+    })
+
+
+
+
+
 
     
     let paged = {
